@@ -12,7 +12,7 @@ ds<- function(x){
   # numeric summary
   par(mfrow = c(1,1))
   data.frame(min = min(x),
-             median = media(x),
+             median = median(x),
              mean = mean(x),
              max = max(x),
              sd = sd(x))
